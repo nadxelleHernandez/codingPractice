@@ -1,0 +1,12 @@
+D:\Programing\CodingPractice\CodePractice\CodePractice\bin\Debug\netcoreapp3.1\CodePractice.exe
+D:\Programing\CodingPractice\CodePractice\CodePractice\bin\Debug\netcoreapp3.1\CodePractice.deps.json
+D:\Programing\CodingPractice\CodePractice\CodePractice\bin\Debug\netcoreapp3.1\CodePractice.runtimeconfig.json
+D:\Programing\CodingPractice\CodePractice\CodePractice\bin\Debug\netcoreapp3.1\CodePractice.runtimeconfig.dev.json
+D:\Programing\CodingPractice\CodePractice\CodePractice\bin\Debug\netcoreapp3.1\CodePractice.dll
+D:\Programing\CodingPractice\CodePractice\CodePractice\bin\Debug\netcoreapp3.1\CodePractice.pdb
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.csproj.CoreCompileInputs.cache
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.AssemblyInfoInputs.cache
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.AssemblyInfo.cs
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.dll
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.pdb
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.genruntimeconfig.cache
