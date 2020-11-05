@@ -58,32 +58,35 @@ namespace CodePractice
 
             uint subSum = array[0];
             bool nonSumFound = true;
-            bool addedNumber = false;
+            bool sumstillless = false;
             for (uint i = 1; i < array.Length; i++)
             {
                 if (subSum < sum) //hay que seguir sumando
                 {
                     subSum += array[i];
                     indexes[1]++;
-                    addedNumber = true;
-                }
-                else if (subSum > sum) // me pase de la suma
-                {
-                    indexes[0] = indexes[1];  //reinicio los indices del subarreglo
-                    indexes[1] = indexes[1];
-                    if (addedNumber)
+                    if(subSum<sum)
                     {
-                        i--;
-                        addedNumber=false; //reinicio la bandera de suma
+                        sumstillless = true;
                     }
-                    subSum = array[i];
+                   
                 }
-                else //son iguales!! la encontre
+                if (subSum == sum) //encontrado
                 {
                     nonSumFound = false;
                     break;
                 }
-
+                else if (subSum > sum) // me pase tengo que reiniciar todo
+                {
+                    if (sumstillless)
+                    {
+                        i--;
+                        sumstillless = false;
+                    }
+                    subSum = array[i];
+                    indexes[0] = i;  //reinicio los indices del subarreglo
+                    indexes[1] = i;
+                }
             }
 
             if (nonSumFound) return null;

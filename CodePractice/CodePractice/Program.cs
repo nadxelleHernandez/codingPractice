@@ -15,7 +15,7 @@ namespace CodePractice
             Console.WriteLine("Encontrando las suma");
 
             uint[] b = { 4,5,10,8,1,7};
-            uint sum = 6;
+            uint sum = 11;
             uint[] indexes = ArraysPrograms.SubArraySum(b, sum);
             if (indexes == null)
                 Console.WriteLine("no hay subarreglo que sume {0}", sum);
