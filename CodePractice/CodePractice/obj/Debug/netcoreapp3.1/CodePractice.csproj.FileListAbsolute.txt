@@ -10,3 +10,4 @@ D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\C
 D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.dll
 D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.pdb
 D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.genruntimeconfig.cache
+D:\Programing\CodingPractice\CodePractice\CodePractice\obj\Debug\netcoreapp3.1\CodePractice.csprojAssemblyReference.cache
