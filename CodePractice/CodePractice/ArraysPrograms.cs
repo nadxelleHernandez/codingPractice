@@ -38,7 +38,7 @@ namespace CodePractice
         /// <returns>An array with the indexes where the subarray is located, null if nothing was found</returns>
         static public uint [] SubArraySum(uint[] array, uint sum)
         {
-            uint[] indexes = null;
+            uint[] indexes;
 
             if (array == null) return null;
 

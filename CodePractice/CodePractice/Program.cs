@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace CodePractice
 {
@@ -21,6 +22,12 @@ namespace CodePractice
                 Console.WriteLine("no hay subarreglo que sume {0}", sum);
             else
                 Console.WriteLine("el subarray que suma {2} esta entre los {0}  y  {1} indices", indexes[0], indexes[1], sum);
+
+            string myString = "aea7672q";
+            string pattern = "a***###q";
+            Console.WriteLine("Comparando cadenas: {0} y {1}",myString, pattern );
+            Console.WriteLine(StringPrograms.IsStringLikePattern(myString, pattern));
+           
         }
     }
 }
